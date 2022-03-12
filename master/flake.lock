@@ -32,10 +32,58 @@
         "type": "indirect"
       }
     },
+    "result": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "result-master": "result-master"
+      },
+      "locked": {
+        "lastModified": 1647063511,
+        "narHash": "sha256-K+q3wCTFsXOtKjB8vakyVuAkbgez6IXz+z3l9O+YxnI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "result",
+        "rev": "6f26fc6938e655fe40ed92c89b9e3c92de3cabb3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "result",
+        "type": "github"
+      }
+    },
+    "result-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "result",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "result",
+          "nixpkgs"
+        ],
+        "src-result-master": "src-result-master"
+      },
+      "locked": {
+        "narHash": "sha256-yJumLkWRC/h/9yyAbRE3Elz1tDFi3YpxF6shTueKmMM=",
+        "path": "./master",
+        "type": "path"
+      },
+      "original": {
+        "path": "./master",
+        "type": "path"
+      }
+    },
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
+        "result": "result",
         "src-microparsec-master": "src-microparsec-master"
       }
     },
@@ -53,6 +101,23 @@
         "owner": "schneiderfelipe",
         "ref": "refs/heads/master",
         "repo": "microparsec",
+        "type": "github"
+      }
+    },
+    "src-result-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1641244549,
+        "narHash": "sha256-Q1++NjHEtY261IiKpRRh5Oa7kfE8qRYO/8aEJ3FUddg=",
+        "owner": "arnetheduck",
+        "repo": "nim-result",
+        "rev": "4ff5f5b59c239c23314240106c6903bb0084e074",
+        "type": "github"
+      },
+      "original": {
+        "owner": "arnetheduck",
+        "ref": "refs/heads/master",
+        "repo": "nim-result",
         "type": "github"
       }
     }
