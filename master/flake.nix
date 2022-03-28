@@ -11,7 +11,6 @@
   inputs.src-microparsec-master.ref   = "refs/heads/master";
   inputs.src-microparsec-master.owner = "schneiderfelipe";
   inputs.src-microparsec-master.repo  = "microparsec";
-  inputs.src-microparsec-master.dir   = "";
   inputs.src-microparsec-master.type  = "github";
   
   inputs."result".owner = "nim-nix-pkgs";

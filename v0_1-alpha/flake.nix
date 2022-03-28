@@ -11,7 +11,6 @@
   inputs.src-microparsec-v0_1-alpha.ref   = "refs/tags/v0.1-alpha";
   inputs.src-microparsec-v0_1-alpha.owner = "schneiderfelipe";
   inputs.src-microparsec-v0_1-alpha.repo  = "microparsec";
-  inputs.src-microparsec-v0_1-alpha.dir   = "";
   inputs.src-microparsec-v0_1-alpha.type  = "github";
   
   inputs."result".owner = "nim-nix-pkgs";
